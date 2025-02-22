@@ -10,11 +10,11 @@ Please cite our work when it inspires your research!
 
 ## Code
 
-This repository contains the code for the DSFNO model applied to Navier-Stokes equation solution data downscaling. It trains a DSFNO model to downscale from 16x16 to 32x32 resolution, then evaluates its performance on 16x16 --> 16x16, 16x16 --> 32x32, and 16x16 --> 64x64 downscaling tasks. 
+This repository contains the code for the DSFNO model applied to Navier-Stokes equation solution data downscaling. It trains a DSFNO model to downscale from 16x16 to 32x32 resolution, then evaluates its performance on 16x16 --> 16x16, 16x16 --> 32x32, and 16x16 --> 64x64 downscaling tasks. To reproduce the results, run the `main.py` script.
 
 ## Data
 
-The data used in this repository is the Navier-Stokes equation solution data from the paper ["Fourier Neural Operator for Parametric Partial Differential Equations"](https://arxiv.org/abs/2010.08895). The solution data's original resolution is 64x64, then it is downsampled to 32x32 and 16x16 using average pooling.
+The data used in this repository is the Navier-Stokes equation solution data from the paper ["Fourier Neural Operator for Parametric Partial Differential Equations"](https://arxiv.org/abs/2010.08895). The solution data's original resolution is 64x64, then it is downsampled to 32x32 and 16x16 using average pooling. By this way, it provides the data for 16x16 --> 16x16, 16x16 --> 32x32, and 16x16 --> 64x64 downscaling tasks.
 
 # References
 
